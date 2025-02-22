@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'kionaregular';
+    src: url('D:/WEBSITE/HAPPY BIRTHDAY/font/kiona-regular-webfont.woff') format('woff2'),
+         url('D:/WEBSITE/HAPPY BIRTHDAY/font/kiona-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'walkway_condensedregular';
+    src: url('D:/WEBSITE/HAPPY BIRTHDAY/font/walkway_condensed-webfont.woff2') format('woff2'),
+         url('D:/WEBSITE/HAPPY BIRTHDAY/font/walkway_condensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'kionaregular';
+    background-image: url(../img/IMG_0115.HEIC);
+}
+
+.content__credits {
+    font-family: 'walkway_condensedregular';
+    letter-spacing: 1px;
+    font-size: 1.15rem;
+}
